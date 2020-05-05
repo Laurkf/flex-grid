@@ -12,7 +12,6 @@
 
 html {
     color: #222;
-    font-size: 1em;
     line-height: 1.4;
 }
 
@@ -103,8 +102,9 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 4em;
   font-size: 1.25em;
+  text-align: center;
   height: 100%;
 }
 
@@ -117,15 +117,18 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
+  color: darkgrey;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: .75em;
+  background-color: mistyrose;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  border-style: dotted;
+  border-color: darkgrey;
+  border-width: .25em;
 }
 
 
