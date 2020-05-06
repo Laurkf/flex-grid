@@ -115,6 +115,22 @@ body {
   justify-content: space-between;
 }
 
+header,
+main {
+  background-color: mistyrose;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgrey;
+  border-style: dotted;
+  border-color: darkgrey;
+  border-width: .25rem;
+}
+
+
+
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: darkgrey;
@@ -131,7 +147,14 @@ body {
   border-width: .25em;
 }
 
-
+.flex-container {
+  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center, and set flex-flow to row wrap*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content:space-between;
+}
 
 
 /* ==========================================================================
